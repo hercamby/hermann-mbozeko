@@ -1,62 +1,59 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salesforce & Data Analyst | Hermann Mbozeko</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salesforce & Data Analyst | Hermann Mbozeko</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #0f172a;
-            color: #e2e8f0;
-        }
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #0f172a;
+    color: #e2e8f0;
+}
 
-        header {
-            text-align: center;
-            padding: 60px 20px;
-            background: linear-gradient(135deg, #1e293b, #0f172a);
-        }
+header {
+    text-align: center;
+    padding: 80px 20px;
+}
 
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
+h1 { font-size: 2.8em; }
+h2 { color: #38bdf8; margin-top: 40px; }
 
-        h2 {
-            color: #38bdf8;
-        }
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
 
-        section {
-            padding: 50px 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
 
-        .card {
-            background: #1e293b;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 12px;
-        }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
 
-        .btn {
-            display: inline-block;
-            margin-top: 15px;
-            padding: 10px 20px;
-            background: #38bdf8;
-            color: black;
-            text-decoration: none;
-            border-radius: 8px;
-        }
+.btn {
+    background: #38bdf8;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+}
 
-        footer {
-            text-align: center;
-            padding: 30px;
-            background: #020617;
-        }
-    </style>
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #020617;
+}
+</style>
 </head>
 
 <body>
@@ -65,63 +62,94 @@
     <h1>Salesforce & Data Analyst</h1>
     <p>Transformer les données CRM en décisions business à fort impact</p>
 
-    <a href="mailto:hermboze@gmail.com" class="btn">Me contacter</a>
-    <a href="https://www.linkedin.com/in/hermann-mbozeko-admin-salesforce-france-entiere/" class="btn">LinkedIn</a>
+    <a class="btn" href="mailto:hermboze@gmail.com">Email</a>
+    <a class="btn" href="https://www.linkedin.com/in/hermann-mbozeko-admin-salesforce-france-entiere/">LinkedIn</a>
 </header>
 
 <section>
-    <h2>Profil</h2>
+    <h2>Profil Hybride</h2>
     <p>
-        Profil hybride à la croisée du CRM et de la Data. 
-        J’aide les entreprises à structurer leurs processus Salesforce, 
-        analyser leurs données et améliorer leur performance commerciale.
+        Administrateur Salesforce · Business Analyst · Data Analyst  
+        Un profil à la croisée du CRM et de la data.
     </p>
-</section>
 
-<section>
-    <h2>Compétences</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Salesforce</h3>
+            <p>Flows, dashboards, gestion utilisateurs, optimisation pipeline</p>
+        </div>
 
-    <div class="card">
-        <h3>Salesforce</h3>
-        <p>Administration, Flows, Dashboards, optimisation du pipeline</p>
-    </div>
+        <div class="card">
+            <h3>Business Analyst</h3>
+            <p>Recueil des besoins, traduction métier, amélioration des process</p>
+        </div>
 
-    <div class="card">
-        <h3>Business Analyst</h3>
-        <p>Recueil des besoins, traduction métier, amélioration des process</p>
-    </div>
-
-    <div class="card">
-        <h3>Data & BI</h3>
-        <p>SQL, Power BI, Tableau, analyse des performances commerciales</p>
+        <div class="card">
+            <h3>Data Analyst</h3>
+            <p>SQL, Power BI, Tableau, analyse des performances</p>
+        </div>
     </div>
 </section>
 
 <section>
-    <h2>Projets</h2>
+    <h2>Portfolio</h2>
 
     <div class="card">
         <h3>Optimisation des Leads</h3>
-        <p>
-            Automatisation Salesforce + analyse des données pour améliorer la conversion.
-        </p>
-        <p><strong>Résultats :</strong> +15% conversion / -25% temps de traitement</p>
+        <p>Automatisation + structuration des données + dashboards</p>
+        <p><strong>Résultats :</strong> +15% conversion / -25% temps</p>
     </div>
 
     <div class="card">
         <h3>Service Client Salesforce</h3>
-        <p>
-            Refonte du service client avec intégration Aircall et pilotage data.
-        </p>
-        <p><strong>Résultat :</strong> Satisfaction client améliorée</p>
+        <p>Refonte service client + Aircall + SLA + pilotage data</p>
+        <p><strong>Résultat :</strong> satisfaction améliorée</p>
+    </div>
+</section>
+
+<section>
+    <h2>Compétences Data</h2>
+
+    <div class="grid">
+        <div class="card">SQL</div>
+        <div class="card">Power BI</div>
+        <div class="card">Tableau</div>
+        <div class="card">Power Query</div>
+        <div class="card">Excel avancé</div>
     </div>
 </section>
 
 <section>
     <h2>Approche</h2>
     <p>
-        Structurer → Analyser → Décider → Améliorer.
-        La qualité de la donnée est la base de toute performance.
+        Structurer → Analyser → Décider  
+        La qualité des données est la base de toute performance.
+    </p>
+</section>
+
+<section>
+    <h2>Articles & Réflexions</h2>
+
+    <div class="card">
+        <h3>Optimisation CRM</h3>
+        <p>Améliorer son pipeline Salesforce avec la data</p>
+    </div>
+
+    <div class="card">
+        <h3>Data Business</h3>
+        <p>Utiliser la data pour décider plus vite</p>
+    </div>
+
+    <div class="card">
+        <h3>IA & Salesforce</h3>
+        <p>L’impact de l’IA sur les outils CRM</p>
+    </div>
+</section>
+
+<section>
+    <h2>Vision</h2>
+    <p>
+        Structurer la donnée → Analyser → Accélérer la performance.
     </p>
 </section>
 
@@ -134,7 +162,7 @@
 </section>
 
 <footer>
-    <p>© 2026 Hermann Mbozeko - Portfolio GitHub</p>
+    <p>© 2026 Hermann Mbozeko</p>
 </footer>
 
 </body>
